@@ -1,0 +1,41 @@
+.card__container {
+  flex-basis: 25%;
+  margin: 10px;
+}
+
+.card__sprites {
+  display: flex;
+  margin: auto;
+  max-width: 96px;
+  width: 100%;
+  height: auto;
+}
+
+.card__name--pokemon {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.grid__button--prev,
+.grid__button--next {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.card__types {
+  display: flex;
+}
+.card__type--half {
+  flex-basis: 50%;
+}
+
+.card__type {
+  flex-basis: 100%;
+}
+
+.card__img {
+  columns: 2;
+}
+.card__sprites {
+}
